@@ -32,7 +32,7 @@ var Service_Produto = (function(){
 							itens += "<td>" +retorno[i].cpQtd+ "</td>";
 							itens += "<td>" +retorno[i].cpValor+ "</td>";
 							itens += "<td>" +retorno[i].cpObservacao+ "</td>";
-							itens += "<td><a href='Produto.php?panel=627928&acao=editar&id="+retorno[i].idProduto+"' title='editar'><span class='glyphicon glyphicon-pencil super'  aria-hidden='true'></span></a></td>";
+							itens += "<td><a href='Produto.php?panel=627928&acao=editar&id="+retorno[i].idProduto+"' title='editar'><span class='glyphicon glyphicon-pencil super editarProduto' aria-hidden='true'></span></a></td>";
 							itens += "<td><a href='../controller/Produto_controller.php?acao=deletar&id="+retorno[i].idProduto+"' title='excluir'><span class='glyphicon glyphicon-trash super excluirProduto' aria-hidden='true'></span></a></td>";
 							itens += "</tr>";
 						}

@@ -18,32 +18,30 @@
 
 <div class="container-fluid">
 	<div class="row">
-	
-		<div class="col-md-12 admin">
-		<h3 class="sobreNivelAcesso">Sobre os níveis de acesso</h3>
-		<hr class="hrNivelAcesso"/>		    
-			<div class="col-md-4">
-				<div class="form-group">
-					 <span class="label label-warning"> Usuário comum</span> - Tem permissões de acesso moderado 
-				</div>
+	<div class="col-md-12 admin">
+	<h3 class="sobreNivelAcesso">Sobre os níveis de acesso</h3>
+	<hr class="hrNivelAcesso"/>		    
+		<div class="col-md-4">
+			<div class="form-group">
+				 <span class="label label-warning"> Usuário comum</span> - Tem permissões de acesso moderado 
 			</div>
-			<div class="col-md-4">
-				<div class="form-group">
-				 <span class="label label-info"> Super usuário</span> - Tem permissões de acesso privilegiado 
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="form-group">
-				 <span class="label label-success"> Administrador</span> - Tem acesso liberado em todos os módulos do sistema
-				</div>
-			</div>
-			<hr/>		    
 		</div>
-	
-		<div class="col-md-12">
-		<h4 class="usu">Configurações</h4>
-		<hr class="hrAdministrativoUsuario"/>
-			<div class="panel-group" id="panel-892059">
+		<div class="col-md-4">
+			<div class="form-group">
+			 <span class="label label-info"> Super usuário</span> - Tem permissões de acesso privilegiado 
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+			 <span class="label label-success"> Administrador</span> - Tem acesso liberado em todos os módulos do sistema
+			</div>
+		</div>
+		<hr/>		    
+</div>
+<div class="col-md-6">
+	<h4 class="usu">Configurações</h4>
+	<hr class="hrAdministrativoUsuario"/>
+		<div class="panel-group" id="panel-892059">
 			<div>
 				<div class="panel panel-default admin">
 					<div class="panel-heading">
@@ -113,53 +111,55 @@
 					</div>
 				</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						 <div class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-892059" href="#panel-element_423644">Listar usuários</div>
-					</div>
-					<div id="panel-element_423644" class="panel-collapse collapse">
-						<div class="panel-body">
-							
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-12">
-								<h4 class="carregaUsuario"></h4>
-								<hr class="hrCarregaUsuario" />
-									<table class="table table-hover table-responsive" id="tableUsuario">
-										<thead>
-											<tr class="warning">
-												<th>
-													id
-												</th>
-												<th>
-													Nome
-												</th>
-												<th>
-													Status
-												</th>
-												<th>
-													Nível de acesso
-												</th>
-												<th>
-													
-												</th>
-												<th>
-													
-												</th>
-											</tr>
-										</thead>
-										<tbody>
-											<!-- CARREGA LISTA DE USUÁRIOS VIA AJAX -->
-										</tbody>
-									</table>
-								</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					 <div class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-892059" href="#panel-element_423644">Listar usuários</div>
+				</div>
+				<div id="panel-element_423644" class="panel-collapse collapse">
+					<div class="panel-body">
+						
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+							<h4 class="carregaUsuario"></h4>
+							<hr class="hrCarregaUsuario" />
+								<table class="table table-hover table-responsive" id="tableUsuario">
+									<thead>
+										<tr class="warning">
+											<th>
+												id
+											</th>
+											<th>
+												Nome
+											</th>
+											<th>
+												Status
+											</th>
+											<th>
+												Nível de acesso
+											</th>
+											<th>
+												
+											</th>
+											<th>
+												
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!-- CARREGA LISTA DE USUÁRIOS VIA AJAX -->
+									</tbody>
+								</table>
 							</div>
-						</div>	
 						</div>
-						</div>
+					</div>	
+					</div>
 					</div>
 				</div>
-			</div>
+			</div>			
 		</div>
 	</div>
 </div>

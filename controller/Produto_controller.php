@@ -42,11 +42,11 @@
     				window.history.go(-1);
     			</script>";
     else:
-    	$prod->INSERT();
-    	echo"<script language='javascript'>
-    				window.alert('Registro inserido com sucesso !');
-    				window.location.href='../view/Produto.php?panel=852096';
-    			</script>";
+//     	$prod->INSERT();
+//     	echo"<script language='javascript'>
+//     				window.alert('Registro inserido com sucesso !');
+//     				window.location.href='../view/Produto.php?panel=852096';
+//     			</script>";
     endif;
   endif;
   

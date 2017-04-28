@@ -4,7 +4,7 @@ var FormHelperClient = (function() {
 	var createDatePicker = function() {
   
 	$( "#cpDataNascimento" ).datepicker({
-
+		
 		dateFormat: 'dd/mm/yy', //formato da data
 	    dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'], //nomes dos campos dos dias
 	    dayNamesMin: ['D','S','T','Q','Q','S','S','D'],//nomes do titulo dos dias
